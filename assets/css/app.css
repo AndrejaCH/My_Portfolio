@@ -19,13 +19,22 @@ h1 {
 }
 
 .navbar-custom { 
-  background-color: #343a40; 
+  background-color: #343a40;
+  opacity: 1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  z-index: 5; 
+  /* z-index brings nav bar in the front */
 } 
+
 /* Modify brand and text color */ 
 
 .navbar-custom .navbar-brand, 
 .navbar-custom .navbar-text { 
   color: #fff; 
+  font-family: 'New Tegomin', sans-serif;
 } 
 
 footer {
