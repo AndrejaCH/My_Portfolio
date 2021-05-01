@@ -367,7 +367,7 @@ footer a {
 /* body { font-family: sans-serif; } */
 
 .carousel {
-	background: inherit;
+	background: black;
 	position: relative;
 	height: 100%;
 }
@@ -375,7 +375,7 @@ footer a {
 .carousel-cell {
 	width: 60%;
 	height: 200px;
-	padding-top: 1em;
+	padding-top: 3em;
   /* flex-box, center image in cell */
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -429,7 +429,7 @@ footer a {
 .flickity-prev-next-button {
   width: 60px;
   height: 60px;
-  background: transparent;
+  background: white;
   opacity: 0.6;
 }
 
@@ -492,6 +492,15 @@ footer a {
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 60%;
-  padding: 70px 0;
+  padding: 50px 0;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-text {
+    margin: 30px;
+    padding: 20px;
+    width: 20%;
+    top: 50%;
+  }
 }
