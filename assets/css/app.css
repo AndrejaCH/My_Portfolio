@@ -1,5 +1,5 @@
 html, body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
@@ -34,7 +34,7 @@ h1 {
 .navbar-custom .navbar-brand, 
 .navbar-custom .navbar-text { 
   color: #fff; 
-  font-family: 'New Tegomin', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 } 
 
 footer {
@@ -439,6 +439,7 @@ footer a {
 
 * {
   box-sizing: border-box;
+
 }
 
 .bg-image {
@@ -470,7 +471,7 @@ footer a {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 45%;
-  padding: 60px;
+  width: 60%;
+  padding: 70px 0;
   text-align: center;
 }
