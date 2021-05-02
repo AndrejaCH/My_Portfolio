@@ -486,21 +486,26 @@ footer a {
   color: white;
   /* font-weight: bold; */
   border: 3px solid #f1f1f1;
-  position: absolute;
+  /* position: absolute;
   top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 50%; */
+  /* transform: translate(50px, 100px);
   z-index: 2;
   width: 60%;
   padding: 50px 0;
+  text-align: center; */
+  transform: translateY(-150px);
   text-align: center;
+  width:1000px;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .bg-text {
     margin: 30px;
     padding: 20px;
     width: 20%;
     top: 50%;
   }
-}
+} */
