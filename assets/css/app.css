@@ -498,7 +498,10 @@ footer a {
   text-align: center;
   width:1000px;
   max-width: 90%;
+  /* max-height: 90%; */
+  /* height: 200px; */
   margin: 0 auto;
+  
 }
 
 /* @media screen and (max-width: 768px) {
