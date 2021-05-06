@@ -127,15 +127,17 @@ footer a {
   margin-top: 50px;
   color:#4892b4;
   text-align: center;
+  font-size: 30px;
 }
 
 .card-text {
   line-height: 2;
+  font-size: 20px;
 }
 
 .card-icon{
   color:#4892b4;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .subtitle {
